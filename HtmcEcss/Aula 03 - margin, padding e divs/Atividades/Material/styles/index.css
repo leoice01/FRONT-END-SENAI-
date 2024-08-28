@@ -1,0 +1,36 @@
+/* configuraçao geral */
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body{
+    background-color: rgb(176, 176, 233)
+}
+
+#cabecalho{
+    width: 100%;
+    background-color: grey;
+    color: honeydew;
+    border: 1px solid black;
+}
+
+#artigo{
+    width: 50%;
+    background-color: whitesmoke;
+    color: black;
+    /* margin - margem externa ao elemento em todos os lados */
+    /* 1 valor = todos os lados */
+    /* 2 valores = em cima e embaixo */
+    /* 4 valores = em cima, direita, embaixo e esquerda sentido horario */
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding - margem interna ao elemento */
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: black 7px 5px 10px;
+}
