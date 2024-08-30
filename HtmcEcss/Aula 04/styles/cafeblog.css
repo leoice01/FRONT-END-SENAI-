@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  header h1{
+    text-align: center;
+    background-color: rgba(110, 67, 6, 0.736);
+    padding: 10px;
+  }
+  
+  section h2{
+    margin-bottom: -2%;
+    font-size: 25pt;
+  }
+  
+  #menu_links{
+    text-align: center;
+    background-color: rgb(223, 223, 187);
+    padding: 19px 0px;
+    width: 100%;
+    
+  }
+  
+  #menu_links a{
+    text-decoration: none;
+    color: rgba(110, 67, 6, 0.736);
+    font-size: 15pt;
+    margin: 0 15px;
+  }
+  
+  main{
+    background-color: rgba(134, 130, 130, 0.536);
+    border-radius: 15px;
+    width: 80%;
+    margin: 10px auto;
+    height: 900px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  
+  main p{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    font-size: 15pt;
+  }
+  
+  #vtg_cafe img{
+    width: 50%;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    margin-bottom: 30px;
+  }
+  
+  #vtg_cafe h2{
+    text-align: center;
+    padding: 50px;
+  }
+  
+  footer{
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 0px; 
+  }
+  
+  #logo_logo{
+    width: 4%;
+    float: left;
+    height: -5px;
+    margin-left: -9px;
+  }
