@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --primaria : rgb(21, 164, 28);
+    --secundaria : gray;
+
+header, main, footer{
+    width: 100%;
+  }
+
+#logo{
+    width: 13%;
+    margin-top: 60px;
+ }
+
+  
+#logo img{
+    width: 100%;
+  }
+  
+
+#banner{
+     background-image: url(/bike/img/photo-1496147433903-1e62fdb6f4be.jpg);
+     height: 750px;
+     display: flex;
+     justify-content: center;
+     background-size: cover;
+     background-position: center;
+  }
+
