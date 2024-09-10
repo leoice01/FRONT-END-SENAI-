@@ -1,0 +1,59 @@
+@keyframes teste{
+    0%{
+        background-color: var(--cor1);
+    }
+    50%{
+        background-color: var(--cor2)
+    }
+    100%{
+        background-color: var(--cor3);
+        padding: 150px;
+    }
+}
+
+#animacao{
+    width: 100px;
+    height: 100px;
+    background-color: var(--cor4);
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#animacao:hover{
+    animation-name: teste;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+@font-face {
+font-family: fighting_spirit;
+src : url(../fonts/fighting_spirit_tbs/Fighting\ Spirit\ 2.otf);
+}
+
+
+@font-face {
+font-family: fighting_spirit;
+src : url(../fonts/fighting_spirit_tbs/Fighting\ Spirit\ 2.otf);
+}
+
+*{
+margin: 0%;
+padding: 0%;
+}
+
+h2,h3,h4{
+    font-family: fighting_spirit;
+    color: var(--cor1);
+}
+
+:root{
+--cor1 : red;
+--cor2 : green;
+ --cor3 : gray;
+ --cor4 : blue;
+}
+
+
