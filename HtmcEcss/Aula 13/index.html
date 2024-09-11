@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link  media="screen and (max-width: 700px)" rel="stylesheet" href="styles/Mediamobile.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            Um logo muito massa
+</div>    
+
+    <button id="bthmenu" onclick="menu()"> X </button>
+
+<nav id="menuPc">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Pagina 2</a></li>
+            <li><a href="#">Pagina 3</a></li>
+            <li><a href="#">Pagina 4</a></li>
+            <li><a href="#">Pagina 5</a></li>
+    </ul>
+</nav>
+<nav id="menuMobile">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Pagina 2</a></li>
+        <li><a href="#">Pagina 3</a></li>
+        <li><a href="#">Pagina 4</a></li>
+        <li><a href="#">Pagina 5</a></li>
+    </ul>
+</nav>
+</header>
+
+    <main>
+        <!-- <img src="img/mulherdancando.jpg" alt="Um banner"> -->
+        <picture>
+            <source media="screen and (max-width : 700px)" srcset="img/mulherdancando.jpg">
+            <img src="img/mulherdancando.jpg" alt="">
+</picture>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum temporibus laborum minus quis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum temporibus laborum minus quis!</p>
+</main>
+
+    <footer>
+        Todos direitos reservados!
+</footer>
+
+    <script>
+        function menu(){
+            if(menuMobile.style.display == "none"){
+                menuMobile.style.display = "flex"
+            }else{
+                    menuMobile.style.display = "none"
+            }
+        }
+
+</script>
+</body>
+</html>

@@ -31,3 +31,12 @@ nav a{
     line-height: 1.6;
     margin: 0px 15px;
 }
+
+h2{
+    color: rgb(231, 68, 95);
+    text-align: center;
+    padding: 20px;
+    font-size: 25pt;
+    border-bottom: 2px solid #2A2B2A;
+    margin: 0px 600px;
+  }
