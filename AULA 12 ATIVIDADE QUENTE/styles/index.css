@@ -21,8 +21,7 @@ header h1{
 
 nav{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
 }
 
 nav a{
@@ -39,4 +38,24 @@ h2{
     font-size: 25pt;
     border-bottom: 2px solid #2A2B2A;
     margin: 0px 600px;
+  }
+
+  #tela{
+    display: flex;
+    justify-content: center;
+  }
+
+  .fotos{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #2A2B2A; padding: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+  }
+
+  img{
+    width: 100%;
   }
