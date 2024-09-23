@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: grey;
+}
+
+.calculo{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+#filho{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 180px;
+    margin: 10px 15px;
+    gap: 10px;
+}
+
+#botao{
+    padding: 10px;
+}
