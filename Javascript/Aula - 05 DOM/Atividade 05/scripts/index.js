@@ -6,8 +6,3 @@ function filmes18(){
         document.getElementById("teste1").innerHTML += `<div class="categoria1">${categoria}</div>`
     });
 }
-
-function tabuada(){
-    var input_test
-    
-}
