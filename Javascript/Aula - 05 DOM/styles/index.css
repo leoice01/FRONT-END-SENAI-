@@ -1,0 +1,21 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+#input_teste{
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.elementos{
+    padding: 20px;
+    background-color: black;
+    color: red;
+    margin: 20px;
+}
