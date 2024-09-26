@@ -24,3 +24,32 @@ function gerarTabuada() {
         `;
     }
 }
+
+function ex2(){
+    let numero = Number (document.getElementById("input_ex2").value)
+
+    // contador por meio do while(){}
+    // let contador = 0
+    // while (contador <= 10){
+    // contadpr++}
+//
+
+for(let contador = 0;contador <= 10;contador++){
+    let calculo = numero * contador
+    document.getElementById("respostaex1").innerHTML +=`
+    <p>${numero} x ${contador} = ${calculo}</p>
+    `
+}
+}
+
+if(numero ==0){
+    document.getElementById("respotaex1").innerHTML =``
+ }else{
+    for(let contador = 0; contador <= 10; contador++){
+        let calculo = numero * contador
+        
+        document.getElementById("respotaex1").innerHTML +=`
+        <p>${numero} * ${contador} = ${calculo}</p>
+        `
+     }
+}
