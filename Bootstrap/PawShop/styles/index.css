@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    background-color: #6EB3D0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+nav img{
+    width: 4%;
+}
+
+header nav a{
+    text-decoration: none;
+    padding: 14px;
+    font-size: 18pt;
+    color: black;
+}
+
+#dividir{
+ background-image: url(../Images/banner.png);
+ height: 700px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-bottom: 50px;
+}
+
+section h1{
+    color: #6EB3D0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.dogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dogs img{
+    width: 16%;
+}
+
+#desc{
+    width: 1200px;
+    margin: 40px auto;
+}
+
+#desc p{
+    color: #6EB3D0;
+    text-align: justify;
+    font-size: 15pt;
+}
+
+#mid_titlle {
+    color:#F4A623;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.col button{
+    border-radius: 0%;
+}
