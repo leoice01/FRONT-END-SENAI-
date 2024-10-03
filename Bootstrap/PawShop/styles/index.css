@@ -70,7 +70,7 @@ section h1{
 .produtos{
     height: 780px;
 }
-/* 
+
 .Preco{
     display: flex;
     justify-content: space-around;
@@ -79,5 +79,6 @@ section h1{
 
 .Desc{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-} */
+} 

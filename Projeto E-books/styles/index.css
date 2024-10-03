@@ -98,8 +98,8 @@ header nav a{
 }
 
 .conteudo{
-    display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 200px;   
     border: 10px solid white;
     border-radius: 10px;
