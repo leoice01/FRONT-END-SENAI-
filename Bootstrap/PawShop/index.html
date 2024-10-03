@@ -39,28 +39,74 @@
     <h1 id="mid_titlle">CATÁLOGO DE PRODUTOS</h1>
 
 <div class="container text-center ">
-    <div class="row align-items-start gap-3">
-      <div class="col border-black border border-1 p-2">
+    <div class="row align-items-start gap-3 ">
+      <div class="produtos col border-black border border-1 p-2">
         <img src="Images/productImage.png" alt="">
-        <h1>COLEIRA</h1>
-A coleira é o acessório essencial para manter o seu companheiro de quatro patas seguro e com estilo. Feita com materiais de alta qualidade, nossa coleira é resistente e confortável para o seu cão. Com diversos designs e cores disponíveis, você pode encontrar a coleira perfeita que combina com a personalidade do seu peludo amigo. Além de proporcionar segurança durante os passeios, a coleira é uma expressão do amor e cuidado que você tem pelo seu cão.
-                <H1>R$100</H1>
-                <button class="btn btn btn-warning m-3" type="button">VER MAIS</button>
+        <h1 class="produto text-warning fs-3 p-2 fw-bolder">COLEIRA</h1>
+
+<p class="Desc fs-6 text-center">A coleira é o acessório essencial para manter o seu companheiro de quatro patas seguro e com estilo. Feita com materiais de alta qualidade, nossa coleira é resistente e confortável para o seu cão. Com diversos designs e cores disponíveis, você pode encontrar a coleira perfeita que combina com a personalidade do seu peludo amigo. Além de proporcionar segurança durante os passeios, a coleira é uma expressão do amor e cuidado que você tem pelo seu cão.</p>
+
+                <H1 class="text-success fs-2">R$100</H1>
+
+                <button class="btn btn-warning" type="button">VER MAIS</button>
       </div>
-      <div class="col border-black border border-1 p-2 ">
+      <div class="produtos col border-black border border-1 p-2 ">
         <img src="Images/productImage2.png" alt="">
-        One of three columns
+        <h1 class="text-warning text-center fs-3 fw-bolder">COMIDA</h1>
+        <p class="Desc fs-6 text-center ">Ofereça ao seu cão a nutrição de que ele precisa com a nossa seleção de alimentos premium. Nossas opções de comida são formuladas com ingredientes de alta qualidade, proporcionando uma dieta equilibrada e saborosa. Temos uma variedade de rações secas, úmidas e até mesmo opções naturais e orgânicas para atender às necessidades alimentares do seu pet. Cuide da saúde do seu cão com o melhor em nutrição, garantindo que ele se sinta energizado e feliz todos os dias.</p>
+                        <H1 class=" text-success fs-2">R$100</H1>
+
+                        <button class="  btn btn-warning flex-wrap" type="button">VER MAIS</button>
       </div>
-      <div class="col border-black border border-1 p-2 ">
+      <div class=" produtos col border-black border border-1 p-2 ">
         <img src="Images/productImage3.png" alt="">
-        One of three columns
+        <h1 class="produto text-warning text-center fs-4 p-2 fw-bolder">DISCO DE BRINQUEDO</h1>
+        <p class="Desc fs-6 text-center ">Mantenha seu cão entretido e ativo com nosso disco de brinquedo, projetado para horas de diversão ao ar livre. Feito de materiais seguros e duráveis, o disco é perfeito para jogos de busca e interação com o seu cão. Seu design aerodinâmico permite lançamentos precisos, proporcionando ao seu peludo momentos de alegria e exercício. Leve-o para o parque ou o quintal e desfrute de momentos emocionantes e saudáveis com seu cão, fortalecendo ainda mais a conexão entre vocês.</p>
+
+                        <H1 class="  text-success fs-2">R$100</H1>
+
+                        <button class="  btn btn-warning flex-wrap " type="button">VER MAIS</button>
       </div>
-      <div class="col border-black border border-1 p-2 ">
+      <div class=" produtos col border-black border border-1 p-2 ">
         <img src="Images/productImage4.png" alt="">
-        One of three columns
+        <h1 class="produto text-warning text-center fs-4 p-2 fw-bolder">CASINHA</h1>
+
+        <p class="Desc fs-6 text-center ">Nossa casinha para cães é um verdadeiro lar dentro de casa. Feita com materiais duráveis e resistentes às intempéries, ela oferece um refúgio seguro e aconchegante para o seu pet. Com um design espaçoso e confortável, a casinha é o local perfeito para seu cão descansar, se abrigar do sol ou da chuva, e relaxar com todo o conforto que merece. Garanta que seu melhor amigo tenha um lugar aconchegante para chamar de seu com a nossa casinha de qualidade.</p>
+                        <H1 class="  text-success fs-2 accordion">R$100</H1>
+
+                        <button class="  btn btn-warning flex-wrap" type="button">VER MAIS</button>
+
+                        
       </div>
     </div>
   </div>
+  <section id="formularioSection" class="container-fluid p-0 my-1 mx-0">
+  <h3 class="my-4 text-center" style="color: var(--rosa);">ADOTE UM PET</h3>
+  <div id="formularioGrupo" class="d-flex container-fluid p-0 m-0">
+
+    <aside id="formulario" class="p-0 d-flex flex-column justify-content-center">
+      <h4 class="text-center p-3" style="color: var(--azul);">Insira aqui as suas informações para que possamos encontrar um amigo para você!</h4>
+      <div id="divForm" class="container w-75">
+        <form action="index.html" method="post">
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Insira seu Email" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="telefone" class="form-label">Telefone</label>
+            <input type="tel" class="form-control" id="telefone" placeholder="Insira seu telefone">
+            <div id="telHelp" class="form-text">Digite o número com ddd +xx (yy) 99999-9999</div>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Aceita receber as notificações?</label>
+          </div>
+          <div class="mb-3 text-center">
+            <button type="submit" class="btn btn-primary px-4" style="background-color: var(--azul); border: none;">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </aside>
     </main>
     <footer></footer>
     

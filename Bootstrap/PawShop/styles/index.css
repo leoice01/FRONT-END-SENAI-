@@ -66,3 +66,18 @@ section h1{
 .col button{
     border-radius: 0%;
 }
+
+.produtos{
+    height: 780px;
+}
+/* 
+.Preco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Desc{
+    display: flex;
+    align-items: center;
+} */
